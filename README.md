@@ -1,2 +1,4 @@
-# web-335
- Created during assignment 1.2 in web-335 at Bellevue University
+# WEB 335 Introduction to NoSQL
+## Contributors
+* Professor Richard Krasso 
+* Amanda Rovey

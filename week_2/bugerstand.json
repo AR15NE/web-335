@@ -1,0 +1,26 @@
+{
+  "customers": [
+    {
+      "_id": "c1",
+      "firstName": "April",
+      "lastName": "Smith",
+      "orders": [
+        {
+          "_id": "opt1",
+          "burgerName": "Classic Burger",
+          "price": 5.99
+        },
+        {
+          "_id": "opt2",
+          "burgerName": "Cheese Burger",
+          "price": 6.50
+        },
+        {
+          "_id": "opt3",
+          "burgerName": "California Burger",
+          "price": 7.00
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "viewers": [
+    {
+      "_id": "viewer1",
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "ratings": [
+        {
+          "_id": "rating1",
+          "ratingScore": 5,
+          "movieId": "movie1"
+        },
+        {
+          "_id": "rating2",
+          "ratingScore": 4,
+          "movieId": "movie2"
+        }
+      ]
+    },
+    {
+      "_id": "viewer2",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "ratings": [
+        {
+          "_id": "rating3",
+          "ratingScore": 3,
+          "movieId": "movie1"
+        }
+      ]
+    }
+  ],
+  "movies": [
+    {
+      "_id": "movie1",
+      "movieName": "Stargate",
+      "Genre": "Sci-Fi"
+    },
+    {
+      "_id": "movie2",
+      "movieName": "The Lord of the Rings",
+      "Genre": "Fantasy"
+    }
+  ],
+  "ratings": [
+    {
+      "_id": "rating1",
+      "ratingScore": 5,
+      "viewerId": "viewer1",
+      "movieId": "movie1"
+    },
+    {
+      "_id": "rating2",
+      "ratingScore": 4,
+      "viewerId": "viewer1",
+      "movieId": "movie2"
+    },
+    {
+      "_id": "rating3",
+      "ratingScore": 3,
+      "viewerId": "viewer2",
+      "movieId": "movie1"
+    }
+  ]
+}

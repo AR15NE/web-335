@@ -1,6 +1,6 @@
 """
-Author: Your Name
-Date: Current Date
+Author: Amanda Rovey
+Date: 9/1/2024
 File Name: rovey_lemonadeStand.py
 Description: This file calculates the cost and profit of a lemonade stand.
 """

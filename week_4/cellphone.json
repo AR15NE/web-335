@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "_id": "user1",
+      "firstName": "April",
+      "lastName": "Johnson",
+      "devices": [
+        {
+          "_id": "device1",
+          "deviceName": "iPhone 13",
+          "deviceType": "Smartphone",
+          "charger_id": "charger2"  
+        },
+        {
+          "_id": "device2",
+          "deviceName": "iPad Air",
+          "deviceType": "Tablet",
+          "charger_id": "charger2"  
+        }
+      ]
+    },
+    {
+      "_id": "user2",
+      "firstName": "Robert",
+      "lastName": "Cross",
+      "devices": [
+        {
+          "_id": "device3",
+          "deviceName": "Samsung Galaxy S22",
+          "deviceType": "Smartphone",
+          "charger_id": "charger1"  
+        }
+      ]
+    },
+    {
+      "_id": "user3",
+      "firstName": "Charlie",
+      "lastName": "Scott",
+      "devices": [
+        {
+          "_id": "device4",
+          "deviceName": "Google Pixel 6",
+          "deviceType": "Smartphone",
+          "charger_id": "charger1"  
+        },
+        {
+          "_id": "device5",
+          "deviceName": "Amazon Kindle",
+          "deviceType": "E-Reader",
+          "charger_id": "charger1" 
+        }
+      ]
+    },
+    {
+      "_id": "user4",
+      "firstName": "Diana",
+      "lastName": "Prince",
+      "devices": [
+        {
+          "_id": "device6",
+          "deviceName": "Microsoft Surface Pro",
+          "deviceType": "Tablet",
+          "charger_id": "charger4"  
+        }
+      ]
+    }
+  ],
+  "chargers": [
+    {
+      "_id": "charger1",
+      "chargerType": "USB-C",
+      "voltage": "5V"
+    },
+    {
+      "_id": "charger2",
+      "chargerType": "Lightning",
+      "voltage": "5V"
+    },
+    {
+      "_id": "charger3",
+      "chargerType": "USB-C",
+      "voltage": "9V"
+    },
+    {
+      "_id": "charger4",
+      "chargerType": "Surface Connect",
+      "voltage": "12V"
+    }
+  ]
+}

@@ -30,3 +30,4 @@ db.users.find({ firstName: "Wolfgang", lastName: "Mozart" })
 
 // Displaying all users with projections
 db.users.find({}, { _id: 0, firstName: 1, lastName: 1, email: 1 })
+

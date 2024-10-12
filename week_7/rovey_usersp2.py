@@ -29,7 +29,7 @@ new_user_id = db.users.insert_one(new_user).inserted_id
 print(f"New user created with ID: {new_user_id}")
 
 # Retrieve and print the newly created user document to verify the insertion
-print("Document created:", db.users.find_one({"employeeId": "1020"}))
+print("Document created:",m, , db.users.find_one({"employeeId": "1020"}))
 
 # Update the email address of the newly created user document
 db.users.update_one(
